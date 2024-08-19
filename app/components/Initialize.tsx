@@ -2,12 +2,11 @@
 
 import {
     useConnection,
-    useWallet,
     useAnchorWallet,
   } from "@solana/wallet-adapter-react"
 
 import * as anchor from "@project-serum/anchor"
-import { FC, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import idl from "../../idl.json"
 import { Button } from "@chakra-ui/react"
   
